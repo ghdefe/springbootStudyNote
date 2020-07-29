@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chunmiao.mybatis3.mapper.MybatisMapper">
+
+<!--    <resultMap id="BaseResultMap" type="com.chunmiao.mybatis3.entity.User">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="username" jdbcType="VARCHAR" property="username" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+    </resultMap>-->
+
+<!--    <select id="getAll" resultType="com.chunmiao.mybatis3.entity.User">-->
+<!--    <select id="getAll" resultMap="BaseResultMap">-->
+
+    <select id="queryById" resultType="com.chunmiao.mybatis3.entity.User">
+        select * from user where id = #{id}
+    </select>
+
+    <select id="queryAll" resultType="com.chunmiao.mybatis3.entity.User">
+        select * from user
+    </select>
+
+    <insert id="addUser" parameterType="com.chunmiao.mybatis3.entity.User">
+        insert into user (name,password,username) values (#{name}, #{password}, #{username})
+    </insert>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from user where id = #{id}
+    </delete>
+
+    <update id="updateUser" parameterType="com.chunmiao.mybatis3.entity.User">
+        update user
+        <set>
+            <if test="name != null and name !=''">name = #{name}, </if>
+            <if test="password != null and password !=''" >password = #{password}, </if>
+            <if test="username != null and username !=''">username = #{username}, </if>
+        </set>
+        where id = #{id}
+    </update>
+
+</mapper>
