@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-activiti/spring-boot-demo-activiti.iml" filepath="$PROJECT_DIR$/spring-boot-demo-activiti/spring-boot-demo-activiti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-actuator/spring-boot-demo-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-demo-actuator/spring-boot-demo-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin.iml" filepath="$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-client/spring-boot-demo-admin-client.iml" filepath="$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-client/spring-boot-demo-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-server/spring-boot-demo-admin-server.iml" filepath="$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-server/spring-boot-demo-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-async/spring-boot-demo-async.iml" filepath="$PROJECT_DIR$/spring-boot-demo-async/spring-boot-demo-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-cache-ehcache/spring-boot-demo-cache-ehcache.iml" filepath="$PROJECT_DIR$/spring-boot-demo-cache-ehcache/spring-boot-demo-cache-ehcache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-cache-redis/spring-boot-demo-cache-redis.iml" filepath="$PROJECT_DIR$/spring-boot-demo-cache-redis/spring-boot-demo-cache-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-codegen/spring-boot-demo-codegen.iml" filepath="$PROJECT_DIR$/spring-boot-demo-codegen/spring-boot-demo-codegen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-docker/spring-boot-demo-docker.iml" filepath="$PROJECT_DIR$/spring-boot-demo-docker/spring-boot-demo-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-dubbo/spring-boot-demo-dubbo.iml" filepath="$PROJECT_DIR$/spring-boot-demo-dubbo/spring-boot-demo-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-dubbo/spring-boot-demo-dubbo-common/spring-boot-demo-dubbo-common.iml" filepath="$PROJECT_DIR$/spring-boot-demo-dubbo/spring-boot-demo-dubbo-common/spring-boot-demo-dubbo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-dubbo/spring-boot-demo-dubbo-consumer/spring-boot-demo-dubbo-consumer.iml" filepath="$PROJECT_DIR$/spring-boot-demo-dubbo/spring-boot-demo-dubbo-consumer/spring-boot-demo-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-dubbo/spring-boot-demo-dubbo-provider/spring-boot-demo-dubbo-provider.iml" filepath="$PROJECT_DIR$/spring-boot-demo-dubbo/spring-boot-demo-dubbo-provider/spring-boot-demo-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-dynamic-datasource/spring-boot-demo-dynamic-datasource.iml" filepath="$PROJECT_DIR$/spring-boot-demo-dynamic-datasource/spring-boot-demo-dynamic-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-elasticsearch/spring-boot-demo-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-boot-demo-elasticsearch/spring-boot-demo-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-elasticsearch-rest-high-level-client/spring-boot-demo-elasticsearch-rest-high-level-client.iml" filepath="$PROJECT_DIR$/spring-boot-demo-elasticsearch-rest-high-level-client/spring-boot-demo-elasticsearch-rest-high-level-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-email/spring-boot-demo-email.iml" filepath="$PROJECT_DIR$/spring-boot-demo-email/spring-boot-demo-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-exception-handler/spring-boot-demo-exception-handler.iml" filepath="$PROJECT_DIR$/spring-boot-demo-exception-handler/spring-boot-demo-exception-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-flyway/spring-boot-demo-flyway.iml" filepath="$PROJECT_DIR$/spring-boot-demo-flyway/spring-boot-demo-flyway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-graylog/spring-boot-demo-graylog.iml" filepath="$PROJECT_DIR$/spring-boot-demo-graylog/spring-boot-demo-graylog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-helloworld/spring-boot-demo-helloworld.iml" filepath="$PROJECT_DIR$/spring-boot-demo-helloworld/spring-boot-demo-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-https/spring-boot-demo-https.iml" filepath="$PROJECT_DIR$/spring-boot-demo-https/spring-boot-demo-https.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-ldap/spring-boot-demo-ldap.iml" filepath="$PROJECT_DIR$/spring-boot-demo-ldap/spring-boot-demo-ldap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-log-aop/spring-boot-demo-log-aop.iml" filepath="$PROJECT_DIR$/spring-boot-demo-log-aop/spring-boot-demo-log-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-logback/spring-boot-demo-logback.iml" filepath="$PROJECT_DIR$/spring-boot-demo-logback/spring-boot-demo-logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-mongodb/spring-boot-demo-mongodb.iml" filepath="$PROJECT_DIR$/spring-boot-demo-mongodb/spring-boot-demo-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-mq-kafka/spring-boot-demo-mq-kafka.iml" filepath="$PROJECT_DIR$/spring-boot-demo-mq-kafka/spring-boot-demo-mq-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-mq-rabbitmq/spring-boot-demo-mq-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-demo-mq-rabbitmq/spring-boot-demo-mq-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-mq-rocketmq/spring-boot-demo-mq-rocketmq.iml" filepath="$PROJECT_DIR$/spring-boot-demo-mq-rocketmq/spring-boot-demo-mq-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-multi-datasource-jpa/spring-boot-demo-multi-datasource-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-demo-multi-datasource-jpa/spring-boot-demo-multi-datasource-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-multi-datasource-mybatis/spring-boot-demo-multi-datasource-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-demo-multi-datasource-mybatis/spring-boot-demo-multi-datasource-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-neo4j/spring-boot-demo-neo4j.iml" filepath="$PROJECT_DIR$/spring-boot-demo-neo4j/spring-boot-demo-neo4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-oauth/spring-boot-demo-oauth.iml" filepath="$PROJECT_DIR$/spring-boot-demo-oauth/spring-boot-demo-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-oauth/spring-boot-demo-oauth-authorization-server/spring-boot-demo-oauth-authorization-server.iml" filepath="$PROJECT_DIR$/spring-boot-demo-oauth/spring-boot-demo-oauth-authorization-server/spring-boot-demo-oauth-authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-oauth/spring-boot-demo-oauth-resource-server/spring-boot-demo-oauth-resource-server.iml" filepath="$PROJECT_DIR$/spring-boot-demo-oauth/spring-boot-demo-oauth-resource-server/spring-boot-demo-oauth-resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-beetlsql/spring-boot-demo-orm-beetlsql.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-beetlsql/spring-boot-demo-orm-beetlsql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-jdbctemplate/spring-boot-demo-orm-jdbctemplate.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-jdbctemplate/spring-boot-demo-orm-jdbctemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-jpa/spring-boot-demo-orm-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-jpa/spring-boot-demo-orm-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-mybatis/spring-boot-demo-orm-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-mybatis/spring-boot-demo-orm-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-mybatis-mapper-page/spring-boot-demo-orm-mybatis-mapper-page.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-mybatis-mapper-page/spring-boot-demo-orm-mybatis-mapper-page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-orm-mybatis-plus/spring-boot-demo-orm-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-demo-orm-mybatis-plus/spring-boot-demo-orm-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-properties/spring-boot-demo-properties.iml" filepath="$PROJECT_DIR$/spring-boot-demo-properties/spring-boot-demo-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-ratelimit-guava/spring-boot-demo-ratelimit-guava.iml" filepath="$PROJECT_DIR$/spring-boot-demo-ratelimit-guava/spring-boot-demo-ratelimit-guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-ratelimit-redis/spring-boot-demo-ratelimit-redis.iml" filepath="$PROJECT_DIR$/spring-boot-demo-ratelimit-redis/spring-boot-demo-ratelimit-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-rbac-security/spring-boot-demo-rbac-security.iml" filepath="$PROJECT_DIR$/spring-boot-demo-rbac-security/spring-boot-demo-rbac-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-rbac-shiro/spring-boot-demo-rbac-shiro.iml" filepath="$PROJECT_DIR$/spring-boot-demo-rbac-shiro/spring-boot-demo-rbac-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-session/spring-boot-demo-session.iml" filepath="$PROJECT_DIR$/spring-boot-demo-session/spring-boot-demo-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-sharding-jdbc/spring-boot-demo-sharding-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-demo-sharding-jdbc/spring-boot-demo-sharding-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-social/spring-boot-demo-social.iml" filepath="$PROJECT_DIR$/spring-boot-demo-social/spring-boot-demo-social.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-swagger/spring-boot-demo-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-demo-swagger/spring-boot-demo-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-swagger-beauty/spring-boot-demo-swagger-beauty.iml" filepath="$PROJECT_DIR$/spring-boot-demo-swagger-beauty/spring-boot-demo-swagger-beauty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-task/spring-boot-demo-task.iml" filepath="$PROJECT_DIR$/spring-boot-demo-task/spring-boot-demo-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-task-quartz/spring-boot-demo-task-quartz.iml" filepath="$PROJECT_DIR$/spring-boot-demo-task-quartz/spring-boot-demo-task-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-task-xxl-job/spring-boot-demo-task-xxl-job.iml" filepath="$PROJECT_DIR$/spring-boot-demo-task-xxl-job/spring-boot-demo-task-xxl-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-template-beetl/spring-boot-demo-template-beetl.iml" filepath="$PROJECT_DIR$/spring-boot-demo-template-beetl/spring-boot-demo-template-beetl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-template-enjoy/spring-boot-demo-template-enjoy.iml" filepath="$PROJECT_DIR$/spring-boot-demo-template-enjoy/spring-boot-demo-template-enjoy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-template-freemarker/spring-boot-demo-template-freemarker.iml" filepath="$PROJECT_DIR$/spring-boot-demo-template-freemarker/spring-boot-demo-template-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-template-thymeleaf/spring-boot-demo-template-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-demo-template-thymeleaf/spring-boot-demo-template-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-tio/spring-boot-demo-tio.iml" filepath="$PROJECT_DIR$/spring-boot-demo-tio/spring-boot-demo-tio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-uflo/spring-boot-demo-uflo.iml" filepath="$PROJECT_DIR$/spring-boot-demo-uflo/spring-boot-demo-uflo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-upload/spring-boot-demo-upload.iml" filepath="$PROJECT_DIR$/spring-boot-demo-upload/spring-boot-demo-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-ureport2/spring-boot-demo-ureport2.iml" filepath="$PROJECT_DIR$/spring-boot-demo-ureport2/spring-boot-demo-ureport2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-urule/spring-boot-demo-urule.iml" filepath="$PROJECT_DIR$/spring-boot-demo-urule/spring-boot-demo-urule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-war/spring-boot-demo-war.iml" filepath="$PROJECT_DIR$/spring-boot-demo-war/spring-boot-demo-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-websocket/spring-boot-demo-websocket.iml" filepath="$PROJECT_DIR$/spring-boot-demo-websocket/spring-boot-demo-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-websocket-socketio/spring-boot-demo-websocket-socketio.iml" filepath="$PROJECT_DIR$/spring-boot-demo-websocket-socketio/spring-boot-demo-websocket-socketio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo-zookeeper/spring-boot-demo-zookeeper.iml" filepath="$PROJECT_DIR$/spring-boot-demo-zookeeper/spring-boot-demo-zookeeper.iml" />
+    </modules>
+  </component>
+</project>

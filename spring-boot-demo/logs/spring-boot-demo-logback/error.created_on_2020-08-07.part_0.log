@@ -1,0 +1,6 @@
+2020-08-07 16:21:04.585 ERROR 101592 --- [main] c.x.l.SpringBootDemoLogbackApplication   SpringBootDemoLogbackApplication.java:32: Spring boot启动初始化了 126 个 Bean
+2020-08-07 16:21:04.586 ERROR 101592 --- [main] c.x.l.SpringBootDemoLogbackApplication   SpringBootDemoLogbackApplication.java:37: 【SpringBootDemoLogbackApplication】启动异常：
+
+java.lang.ArithmeticException: / by zero
+	at com.xkcoding.logback.SpringBootDemoLogbackApplication.main(SpringBootDemoLogbackApplication.java:35)
+

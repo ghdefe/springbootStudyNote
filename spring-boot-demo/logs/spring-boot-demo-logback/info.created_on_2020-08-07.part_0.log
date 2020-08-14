@@ -1,0 +1,18 @@
+2020-08-07 16:21:03.080  INFO 101592 --- [main] c.x.l.SpringBootDemoLogbackApplication   : Starting SpringBootDemoLogbackApplication on chunmiaoz-PC0 with PID 101592 (F:\Project\spring-boot-demo\spring-boot-demo-logback\target\classes started by chunmiaoz in F:\Project\spring-boot-demo)
+2020-08-07 16:21:03.090  INFO 101592 --- [main] c.x.l.SpringBootDemoLogbackApplication   : No active profile set, falling back to default profiles: default
+2020-08-07 16:21:04.211  INFO 101592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-07 16:21:04.227  INFO 101592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-07 16:21:04.228  INFO 101592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-08-07 16:21:04.234  INFO 101592 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\jre\bin;E:\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\chunmiaoz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\bin;C:\Users\chunmiaoz\AppData\Roaming\npm;.]
+2020-08-07 16:21:04.318  INFO 101592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-08-07 16:21:04.318  INFO 101592 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1194 ms
+2020-08-07 16:21:04.334  INFO 101592 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-08-07 16:21:04.337  INFO 101592 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-08-07 16:21:04.337  INFO 101592 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-08-07 16:21:04.337  INFO 101592 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-08-07 16:21:04.337  INFO 101592 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-08-07 16:21:04.463  INFO 101592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 16:21:04.580  INFO 101592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-08-07 16:21:04.582  INFO 101592 --- [main] c.x.l.SpringBootDemoLogbackApplication   : Started SpringBootDemoLogbackApplication in 1.999 seconds (JVM running for 2.904)
+2020-08-07 16:21:04.584  INFO 101592 --- [main] c.x.l.SpringBootDemoLogbackApplication   : Spring boot启动初始化了 126 个 Bean
+2020-08-07 16:21:04.585  WARN 101592 --- [main] c.x.l.SpringBootDemoLogbackApplication   : Spring boot启动初始化了 126 个 Bean

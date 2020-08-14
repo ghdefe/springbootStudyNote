@@ -1,0 +1,125 @@
+2020-08-07 16:27:47,613 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:50 - Starting SpringBootDemoLogAopApplication on chunmiaoz-PC0 with PID 92028 (F:\Project\spring-boot-demo\spring-boot-demo-log-aop\target\classes started by chunmiaoz in F:\Project\spring-boot-demo)
+2020-08-07 16:27:47,616 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] SpringApplication.java:675 - No active profile set, falling back to default profiles: default
+2020-08-07 16:27:48,673 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:90 - Tomcat initialized with port(s): 8080 (http)
+2020-08-07 16:27:48,684 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-08-07 16:27:48,684 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-08-07 16:27:48,688 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] DirectJDKLog.java:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\jre\bin;E:\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\chunmiaoz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\bin;C:\Users\chunmiaoz\AppData\Roaming\npm;.]
+2020-08-07 16:27:48,764 [main] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-08-07 16:27:48,764 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1107 ms
+2020-08-07 16:27:48,784 [main] INFO  [o.s.boot.web.servlet.ServletRegistrationBean] ServletRegistrationBean.java:186 - Servlet dispatcherServlet mapped to [/]
+2020-08-07 16:27:48,787 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-08-07 16:27:48,788 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-08-07 16:27:48,788 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'formContentFilter' to: [/*]
+2020-08-07 16:27:48,788 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2020-08-07 16:27:49,002 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 16:27:49,155 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-08-07 16:27:49,157 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:59 - Started SpringBootDemoLogAopApplication in 1.932 seconds (JVM running for 2.75)
+2020-08-07 16:28:02,536 [http-nio-8080-exec-2] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-07 16:28:02,537 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:521 - Initializing Servlet 'dispatcherServlet'
+2020-08-07 16:28:02,544 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:543 - Completed initialization in 7 ms
+2020-08-07 16:28:15,370 [http-nio-8080-exec-4] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:56 - 【请求 URL】：http://localhost:8080/demo/test
+2020-08-07 16:28:15,370 [http-nio-8080-exec-4] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:57 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-08-07 16:28:15,372 [http-nio-8080-exec-4] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:58 - 【请求类名】：com.xkcoding.log.aop.controller.TestController，【请求方法名】：test
+2020-08-07 16:28:15,378 [http-nio-8080-exec-4] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:61 - 【请求参数】：{}，
+2020-08-07 16:28:15,391 [http-nio-8080-exec-4] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:77 - 【返回值】：{"who":"me"}
+2020-08-07 16:28:15,391 [http-nio-8080-exec-4] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:92 - 【请求耗时】：13毫秒
+2020-08-07 16:28:15,399 [http-nio-8080-exec-4] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:96 - 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+2020-08-07 16:29:35,803 [http-nio-8080-exec-7] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:56 - 【请求 URL】：http://localhost:8080/demo/test
+2020-08-07 16:29:35,803 [http-nio-8080-exec-7] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:57 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-08-07 16:29:35,803 [http-nio-8080-exec-7] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:58 - 【请求类名】：com.xkcoding.log.aop.controller.TestController，【请求方法名】：test
+2020-08-07 16:29:35,803 [http-nio-8080-exec-7] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:61 - 【请求参数】：{}，
+2020-08-07 16:29:35,804 [http-nio-8080-exec-7] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:77 - 【返回值】：{"who":"me"}
+2020-08-07 16:29:35,804 [http-nio-8080-exec-7] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:92 - 【请求耗时】：0毫秒
+2020-08-07 16:29:35,804 [http-nio-8080-exec-7] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:96 - 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+2020-08-07 16:29:44,653 [http-nio-8080-exec-8] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:56 - 【请求 URL】：http://localhost:8080/demo/test
+2020-08-07 16:29:44,653 [http-nio-8080-exec-8] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:57 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-08-07 16:29:44,654 [http-nio-8080-exec-8] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:58 - 【请求类名】：com.xkcoding.log.aop.controller.TestController，【请求方法名】：test
+2020-08-07 16:29:44,654 [http-nio-8080-exec-8] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:61 - 【请求参数】：{}，
+2020-08-07 16:29:44,654 [http-nio-8080-exec-8] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:77 - 【返回值】：{"who":"me"}
+2020-08-07 16:29:44,654 [http-nio-8080-exec-8] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:92 - 【请求耗时】：0毫秒
+2020-08-07 16:29:44,654 [http-nio-8080-exec-8] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:96 - 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+2020-08-07 16:30:08,407 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:50 - Starting SpringBootDemoLogAopApplication on chunmiaoz-PC0 with PID 101048 (F:\Project\spring-boot-demo\spring-boot-demo-log-aop\target\classes started by chunmiaoz in F:\Project\spring-boot-demo)
+2020-08-07 16:30:08,410 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] SpringApplication.java:675 - No active profile set, falling back to default profiles: default
+2020-08-07 16:30:09,627 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:90 - Tomcat initialized with port(s): 8080 (http)
+2020-08-07 16:30:09,638 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-08-07 16:30:09,639 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-08-07 16:30:09,646 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] DirectJDKLog.java:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\jre\bin;E:\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\chunmiaoz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\bin;C:\Users\chunmiaoz\AppData\Roaming\npm;.]
+2020-08-07 16:30:09,734 [main] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-08-07 16:30:09,735 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1289 ms
+2020-08-07 16:30:09,755 [main] INFO  [o.s.boot.web.servlet.ServletRegistrationBean] ServletRegistrationBean.java:186 - Servlet dispatcherServlet mapped to [/]
+2020-08-07 16:30:09,758 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-08-07 16:30:09,758 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-08-07 16:30:09,759 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'formContentFilter' to: [/*]
+2020-08-07 16:30:09,759 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2020-08-07 16:30:09,998 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 16:30:10,172 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-08-07 16:30:10,176 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:59 - Started SpringBootDemoLogAopApplication in 2.158 seconds (JVM running for 2.869)
+2020-08-07 16:30:18,518 [http-nio-8080-exec-1] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-07 16:30:18,518 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:521 - Initializing Servlet 'dispatcherServlet'
+2020-08-07 16:30:18,527 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:543 - Completed initialization in 9 ms
+2020-08-07 16:30:18,549 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:56 - 【请求 URL】：http://localhost:8080/demo/test
+2020-08-07 16:30:18,549 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:57 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-08-07 16:30:18,550 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:58 - 【请求类名】：com.xkcoding.log.aop.controller.TestController，【请求方法名】：test
+2020-08-07 16:30:18,554 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:61 - 【请求参数】：{}，
+2020-08-07 16:30:18,566 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:78 - 【返回值】：{"who":"me"}
+2020-08-07 16:30:18,567 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:94 - 【请求耗时】：13毫秒
+2020-08-07 16:30:18,575 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:98 - 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+2020-08-07 16:32:15,837 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:50 - Starting SpringBootDemoLogAopApplication on chunmiaoz-PC0 with PID 102700 (F:\Project\spring-boot-demo\spring-boot-demo-log-aop\target\classes started by chunmiaoz in F:\Project\spring-boot-demo)
+2020-08-07 16:32:15,840 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] SpringApplication.java:675 - No active profile set, falling back to default profiles: default
+2020-08-07 16:32:16,770 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:90 - Tomcat initialized with port(s): 8080 (http)
+2020-08-07 16:32:16,781 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-08-07 16:32:16,782 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-08-07 16:32:16,787 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] DirectJDKLog.java:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\jre\bin;E:\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\chunmiaoz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\bin;C:\Users\chunmiaoz\AppData\Roaming\npm;.]
+2020-08-07 16:32:16,862 [main] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-08-07 16:32:16,862 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 991 ms
+2020-08-07 16:32:16,881 [main] INFO  [o.s.boot.web.servlet.ServletRegistrationBean] ServletRegistrationBean.java:186 - Servlet dispatcherServlet mapped to [/]
+2020-08-07 16:32:16,884 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-08-07 16:32:16,885 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-08-07 16:32:16,885 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'formContentFilter' to: [/*]
+2020-08-07 16:32:16,885 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2020-08-07 16:32:17,097 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 16:32:17,253 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-08-07 16:32:17,255 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:59 - Started SpringBootDemoLogAopApplication in 1.751 seconds (JVM running for 2.381)
+2020-08-07 16:32:25,451 [http-nio-8080-exec-1] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-07 16:32:25,451 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:521 - Initializing Servlet 'dispatcherServlet'
+2020-08-07 16:32:25,457 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:543 - Completed initialization in 6 ms
+2020-08-07 16:32:25,478 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:56 - 【请求 URL】：http://localhost:8080/demo/test
+2020-08-07 16:32:25,479 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:57 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-08-07 16:32:25,479 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:58 - 【请求类名】：com.xkcoding.log.aop.controller.TestController，【请求方法名】：test
+2020-08-07 16:32:25,483 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:61 - 【请求参数】：{}，
+2020-08-07 16:32:25,494 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:78 - 【返回值】：{"who":"me"}
+2020-08-07 16:32:25,494 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:94 - 【请求耗时】：10毫秒
+2020-08-07 16:32:25,503 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:98 - 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+2020-08-07 16:33:37,396 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:50 - Starting SpringBootDemoLogAopApplication on chunmiaoz-PC0 with PID 104220 (F:\Project\spring-boot-demo\spring-boot-demo-log-aop\target\classes started by chunmiaoz in F:\Project\spring-boot-demo)
+2020-08-07 16:33:37,398 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] SpringApplication.java:675 - No active profile set, falling back to default profiles: default
+2020-08-07 16:33:38,409 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:90 - Tomcat initialized with port(s): 8080 (http)
+2020-08-07 16:33:38,419 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-08-07 16:33:38,419 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-08-07 16:33:38,423 [main] INFO  [org.apache.catalina.core.AprLifecycleListener] DirectJDKLog.java:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\jre\bin;E:\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\chunmiaoz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\bin;C:\Users\chunmiaoz\AppData\Roaming\npm;.]
+2020-08-07 16:33:38,500 [main] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-08-07 16:33:38,500 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1064 ms
+2020-08-07 16:33:38,520 [main] INFO  [o.s.boot.web.servlet.ServletRegistrationBean] ServletRegistrationBean.java:186 - Servlet dispatcherServlet mapped to [/]
+2020-08-07 16:33:38,523 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-08-07 16:33:38,523 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-08-07 16:33:38,523 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'formContentFilter' to: [/*]
+2020-08-07 16:33:38,523 [main] INFO  [o.s.boot.web.servlet.FilterRegistrationBean] AbstractFilterRegistrationBean.java:248 - Mapping filter: 'requestContextFilter' to: [/*]
+2020-08-07 16:33:38,737 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-07 16:33:38,898 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-08-07 16:33:38,900 [main] INFO  [c.xkcoding.log.aop.SpringBootDemoLogAopApplication] StartupInfoLogger.java:59 - Started SpringBootDemoLogAopApplication in 1.839 seconds (JVM running for 2.491)
+2020-08-07 16:33:43,256 [http-nio-8080-exec-1] INFO  [o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-07 16:33:43,256 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:521 - Initializing Servlet 'dispatcherServlet'
+2020-08-07 16:33:43,262 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:543 - Completed initialization in 6 ms
+2020-08-07 16:33:43,282 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:56 - 【请求 URL】：http://localhost:8080/demo/test
+2020-08-07 16:33:43,282 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:57 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-08-07 16:33:43,283 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:58 - 【请求类名】：com.xkcoding.log.aop.controller.TestController，【请求方法名】：test
+2020-08-07 16:33:43,287 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:61 - 【请求参数】：{}，
+2020-08-07 16:33:43,297 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:77 - 【返回值】：{"who":"me"}
+2020-08-07 16:33:43,297 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:93 - 【请求耗时】：10毫秒
+2020-08-07 16:33:43,305 [http-nio-8080-exec-1] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:97 - 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+2020-08-07 17:02:58,013 [http-nio-8080-exec-2] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:56 - 【请求 URL】：http://localhost:8080/demo/test
+2020-08-07 17:02:58,014 [http-nio-8080-exec-2] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:57 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-08-07 17:02:58,014 [http-nio-8080-exec-2] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:58 - 【请求类名】：com.xkcoding.log.aop.controller.TestController，【请求方法名】：test
+2020-08-07 17:02:58,020 [http-nio-8080-exec-2] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:61 - 【请求参数】：{"name":["323"]}，
+2020-08-07 17:02:58,020 [http-nio-8080-exec-2] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:77 - 【返回值】：{"who":"me"}
+2020-08-07 17:02:58,020 [http-nio-8080-exec-2] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:93 - 【请求耗时】：0毫秒
+2020-08-07 17:02:58,021 [http-nio-8080-exec-2] INFO  [com.xkcoding.log.aop.aspectj.AopLog] AopLog.java:97 - 【浏览器类型】：CHROME8，【操作系统】：WINDOWS_10，【原始User-Agent】：Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36

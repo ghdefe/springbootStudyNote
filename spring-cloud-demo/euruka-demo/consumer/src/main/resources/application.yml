@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /consumer
+
+spring:
+  application:
+    # 注册到Eureka的服务名
+    name: consumer
+
+############### Eureka配置 ################
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka,http://localhost:9001/eureka
