@@ -1,0 +1,30 @@
+
+spring:
+  datasource:
+    #  驱动
+    driver-class-name: org.h2.Driver
+    # h2 内存数据库 内存模式连接配置 库名: mybatis
+    url: jdbc:h2:mem:test
+    username: sa
+    password:
+      # 初始化数据表 DDL
+    schema: classpath:db/schema.sql
+    #  初始化数据 DML
+    data: classpath:db/data.sql
+    type: com.zaxxer.hikari.HikariDataSource
+  h2:
+    console:
+      path: /h2
+      enabled: true
+      settings:
+        trace: true
+        web-allow-others: true
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+#
+#
+server:
+  port: 8081
